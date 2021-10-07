@@ -1,6 +1,6 @@
 # Mercer Gaussian Process (MGP) and Fourier Gaussian Process (FGP) Regression #
 
-We provide the code used in our paper ``How Good are Low-Rank Approximations in Gaussian Process Regression?'' to run experiments om the real-world datasets. The code includes implementation of Mercer GP (using dimensionality reduction) and Fourier GP. We also include the GPFlow code to run SGPR model.
+We provide the code used in our paper *How Good are Low-Rank Approximations in Gaussian Process Regression?* to run experiments om the real-world datasets. The code includes implementation of Mercer GP (using dimensionality reduction) and Fourier GP. We also include the GPFlow code to run SGPR model.
 
 ## Requirements ##
 TensorFlow - version 2.1.0  
@@ -12,7 +12,7 @@ silence-tensorflow - version 1.1.1 (optional)
 * batch_size: Batch size for MGP (due to the included shallow neural network) (integer - default=2048)
 * num_epochs: Display loss function value every FLAGS.display_freq epochs (integer - default=100)
 * num_splits: Number of random data splits used - number of experiments run for a model (integer - default=1)
-* display_freq: Display loss function value every ``display_freq epochs'' (integer - default=10)
+* display_freq: Display loss function value every *display_freq epochs* (integer - default=10)
 * rank: Rank r for MGP, FGP, SGPR (integer - default=10)
 * d_mgp: Number of output dimensions for MGP\'s projection (integer - default=5)
 * dataset: Dataset name (string - available names=[elevators, protein, sarcos, 3droad] - default=elevators)
