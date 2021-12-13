@@ -1,6 +1,6 @@
 # Mercer Gaussian Process (MGP) and Fourier Gaussian Process (FGP) Regression #
 
-We provide the code used in our paper "**How Good are Low-Rank Approximations in Gaussian Process Regression?**" to run experiments on the real-world datasets. The code includes implementation of Mercer GP (using dimensionality reduction) and Fourier GP. We also include the GPFlow code to run SGPR model.
+We provide the code used in our paper "[**How Good are Low-Rank Approximations in Gaussian Process Regression?**](https://arxiv.org/pdf/2004.01584.pdf)" to run experiments on the real-world datasets. The code includes implementation of Mercer GP (using dimensionality reduction) and Fourier GP. We also include the GPFlow code to run SGPR model.
 
 ## Requirements ##
 TensorFlow - version 2.1.0  
